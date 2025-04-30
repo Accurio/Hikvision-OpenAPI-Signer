@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "Hikvision-OpenAPI-Signer"
+version = "1.0.0"
+requires-python = ">= 3.9"
+authors = [{name="Accurio"}]
+description = "海康威视iSecure Center综合安防管理平台OpenAPI网关Artemis接口请求签名模块"
+readme = "README.md"
+license = "Apache-2.0"
+license-files = ["LICENSE.txt"]
+keywords = ["Hikvision", "iSecure Center", "OpenAPI", "Artemis"]
+classifiers = [
+    "Intended Audience :: Information Technology",
+    "Natural Language :: Chinese (Simplified)",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+]
+
+[project.urls]
+Repository = "https://github.com/Accurio/Hikvision-OpenAPI-Signer"
